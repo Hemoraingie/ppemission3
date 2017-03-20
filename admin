@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Showing / hiding programmatically</title>
+</head>
+<body>
+
+
+<script src="jscolor.js"></script>
+
+<button onclick="document.getElementById('foo').jscolor.show()">
+    afficher</button>
+
+<button onclick="document.getElementById('foo').jscolor.hide()">
+    enlever</button>
+<FORM NAME="couleur" ACTION="" METHOD="POST" ENCTYPE="text/plain">
+<input id="foo" class="jscolor" disabled value="cc4499">
+</button>
+
+
+
+
+</body>
+</html>
